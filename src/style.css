@@ -1,0 +1,171 @@
+
+.navFont {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(171, 134, 80, 0.845);
+    text-shadow: -1px 2px rgba(93, 100, 103, 0.952);
+    -webkit-text-stroke: 1px rgba(171, 134, 80, 0.952);
+}
+
+header nav ul li:hover {
+    font-family: 'Dancing Script', cursive;
+    color: rgba(171, 134, 80, 0.845);
+    animation: pulse 1s infinite;
+    animation-timing-function: linear; 
+}
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1); }
+    }
+
+div img {
+    width: auto;
+    height: auto;
+}
+
+.mybg {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    background-color:#d1dfffb5;
+    /* background-image: url('assets/portfolio-bg.jpg'); */
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+    display: block;
+}
+
+.mycol {
+    height: 300px;
+    width: 225px;
+    border: rgba(76, 28, 28, 0.94);
+    border-style: solid;
+}
+
+.myp1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: darkslategray;
+}
+
+.myp2 {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgba(171, 134, 80, 0.845); 
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-shadow: -3px 3px #911b1bc2;
+    
+    transform: skewY(-5deg);
+}
+
+.h1bg {
+    background-color: rgba(76, 28, 28, 0.94);
+
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.port-marg{
+    margin: 48px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+}
+  
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+
+.flip-card-front {
+background-color: #bbb;
+color: black;
+}
+  
+
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.mycenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myicon {
+    
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    padding-bottom: 15%;
+    position: relative;
+  }
+
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+
+@media all and (max-width:900px), (max-device-width:900px){
+    .mybg {
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+        background-color:#d1dfffb5;
+        /* background-image: url('assets/portfolio-bg-small.jpg'); */
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+    }
+    .port-marg {
+        margin: auto;
+    }
+
+    }
