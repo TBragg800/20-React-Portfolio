@@ -1,20 +1,59 @@
 import React from "react";
 
 const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
+  <main> 
+ {/* Container for main content    */}
+      <section className="container myborder bg-transparent rounded mb-5 shadow-lg">
+ {/* H1 element to head page  */}
+        <section className="row h1bg"
+        data-aos="fade-down"
+        data-aos-offset="0"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center">
+              <div className="col row justify-content-center">
+                  <h1>Contact</h1>
+              </div>
+          </section>
+ {/* Form section containing contact forms */}
+          <section className="row m-5">
+            <div className="col-lg-12 float-right shadow-lg p-3 mb-5 bg-white rounded"
+            data-aos="zoom-in"
+            data-aos-offset="-150"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center">
+              <form>
+                <div className="form-row">
+                  <div className="col">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" className="form-control" id="validationCustom01" />
+                  </div>
+                  <div className="col">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" className="form-control" id="validationCustom02" />
+                  </div>
+                </div>
+                <div className="form-group mt-2">
+                  <label for="exampleInputEmail1" id="emailHelp">Email address</label>
+                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div className="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </section>    
+      </section>
+    </main>
 );
 
 export default Contact;
