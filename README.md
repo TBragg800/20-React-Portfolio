@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Github 20-React-Portfolio](https://github.com/TBragg800/20-React-Portfolio)
 
 ##  Deployed Site:
-[Github 20-React-Portfolio]()
+[Github 20-React-Portfolio](https://tbragg800.github.io/20-React-Portfolio/)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TBragg800/20-React-Portfolio)
