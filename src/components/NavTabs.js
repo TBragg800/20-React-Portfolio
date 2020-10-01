@@ -61,26 +61,24 @@ function NavTabs(props) {
             <section className="collapse navbar-collapse visible" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className="nav-link navFont" 
-                    className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+                    <a
+                    className={props.currentPage === "Home" ? "nav-link active navFont" : "nav-link navFont"}
                     onClick={() => props.handlePageChange("Home")}
                     href="#home">HOME</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link navFont" 
-                    className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+                    <a
+                    className={props.currentPage === "Portfolio" ? "nav-link active navFont" : "nav-link navFont"}
                     onClick={() => props.handlePageChange("Portfolio")}
                     href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link navFont"
-                    className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
+                    <a                    className={props.currentPage === "Contact" ? "nav-link active navFont" : "nav-link navFont"}
                     onClick={() => props.handlePageChange("Contact")} 
                     href="#contact">CONTACT</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link navFont"
-                    className={props.currentPage === "Resume" ? "nav-link active" : "nav-link"}
+                    <a                    className={props.currentPage === "Resume" ? "nav-link active navFont" : "nav-link navFont"}
                     onClick={() => props.handlePageChange("Resume")} 
                     href="#resume">RESUME</a>
                 </li>
