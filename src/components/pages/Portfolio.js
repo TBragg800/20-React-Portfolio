@@ -170,6 +170,7 @@ const Portfolio = () => (
                     <h2>MySQL-Employee-Tracker</h2>
                     <p>Content Management System made available to the users CLI. This application utilizes node.js to inquirer, and MySQL to architect and build a solution for managing a company's employees.</p>
                     <a href="https://github.com/TBragg800/12-MySQL-Employee-Tracker">
+                      <p className="text-white">Repository</p>
                       <i className="fab fa-github myicon"></i>
                     </a>
                   </div>
