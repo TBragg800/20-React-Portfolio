@@ -51,7 +51,7 @@ const Home = () => (
                     </div>
 {/* Div for description */}
                     <div className="row m-3"> 
-                        <p className="myp2">Hi, Thomas here, and I am FULL STACK DEVELOPER!! I live in Nashville, 
+                        <p className="myp2">Hi, Thomas here, and I am a <span className="myp3">FULL STACK DEVELOPER!!</span> I live in Nashville, 
                             Tenneessee and currently attend The Vanderbilt University Full Stack Flex Program. I'm new to 
                             the web design community but feel like I am in a great time and place for evolving and challenging
                             myself. I love the logic and structure of coding and strive to utlize HTML, CSS and Java Scripts 
