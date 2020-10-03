@@ -77,9 +77,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Work-Day-Scheduler</h2>
                     <p>A scheduler using local storage and moment.js</p>
-                    <a href="https://github.com/TBragg800/Week-5-Work-Day-Scheduler">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/Week-5-Work-Day-Scheduler">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://tbragg800.github.io/Week-5-Work-Day-Scheduler/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
