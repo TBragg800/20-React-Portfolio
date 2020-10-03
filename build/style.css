@@ -30,7 +30,7 @@ div img {
     max-width: 100%;
     margin: auto;
     background-color:#d1dfffb5;
-    /* background-image: url('assets/portfolio-bg.jpg'); */
+    background-image: url('assets/portfolio-bg.jpg');
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -73,7 +73,7 @@ h1 {
 }
 /* Style for h2 elements in the backside of portfolio cards */
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
 }
 /* Margin adjustment to mimic bootstrap m-5 that will be adjusted by media query */
@@ -160,7 +160,7 @@ color: black;
         max-width: 100%;
         margin: auto;
         background-color:#d1dfffb5;
-        /* background-image: url('assets/portfolio-bg-small.jpg'); */
+        background-image: url('assets/portfolio-bg-small.jpg');
         background-blend-mode: darken;
         background-size: cover;
         background-position: center;
