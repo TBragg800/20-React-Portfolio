@@ -99,9 +99,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Code Quiz</h2>
                     <p>A timed code quiz utilizing javascript</p>
-                    <a href="https://github.com/TBragg800/Week-4-Web-APIs-Code-Quiz">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/Week-4-Web-APIs-Code-Quiz">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://tbragg800.github.io/Week-4-Web-APIs-Code-Quiz/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
