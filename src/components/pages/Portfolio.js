@@ -37,7 +37,7 @@ const Portfolio = () => (
                         <i className="fab fa-github myicon"></i>
                       </a>
                       <a href="https://tictac2992.github.io/project-1-fitG6/">
-                      <p className="text-white">Deployed Site</p>
+                        <p className="text-white">Deployed Site</p>
                         <i className="fab fa-github myicon"></i>
                       </a>
                     </div>
@@ -53,9 +53,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2> Project 2: Personalized Festival</h2>
                     <p>A personalized festival using MySQL, Node, Express, Handlebars and a Sequelize ORM set up in an MVC file structure.</p>
-                    <a href="https://github.com/TBragg800/personalized-festival">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/personalized-festival">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://serene-sands-67688.herokuapp.com/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
