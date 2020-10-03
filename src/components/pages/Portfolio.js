@@ -31,9 +31,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Project 1 FitG6</h2>
                     <p>A motivational app with a focus on fitness</p>
-                    <a href="https://github.com/TBragg800/project-1-fitG6">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/project-1-fitG6">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://tictac2992.github.io/project-1-fitG6/">
+                      <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
