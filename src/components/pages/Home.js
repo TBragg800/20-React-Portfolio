@@ -32,7 +32,7 @@ const Home = () => (
                     <img src="redshirt2.JPG" className="mycol rounded-pill shadow-lg mycenter" alt="Thomas in red shirt" />
                 </figure>
 
-                <article className="col-lg-8 float-right shadow-lg p-3 mb-5 bg-white rounded">
+                <article className="col-lg-8 float-right shadow-lg p-3 mb-5 bg-transparent rounded">
 {/* Div for carousel */}
                     <div className="row m-3 justify-content-center">  
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
