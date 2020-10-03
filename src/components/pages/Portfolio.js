@@ -34,11 +34,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/project-1-fitG6">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://tictac2992.github.io/project-1-fitG6/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -56,11 +56,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/personalized-festival">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://serene-sands-67688.herokuapp.com/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -80,11 +80,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/Week-5-Work-Day-Scheduler">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://tbragg800.github.io/Week-5-Work-Day-Scheduler/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -102,11 +102,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/Week-4-Web-APIs-Code-Quiz">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://tbragg800.github.io/Week-4-Web-APIs-Code-Quiz/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -126,11 +126,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/10-Template-Engine-Employee-Summary">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://tbragg800.github.io/10-Template-Engine-Employee-Summary/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -148,11 +148,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/Burger">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://obscure-springs-27484.herokuapp.com/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ const Portfolio = () => (
                     <p>This application is a Content Management System which utilizes node.js to inquirer, and MySQL to architect and build a solution for managing a company's employees.</p>
                     <a href="https://github.com/TBragg800/12-MySQL-Employee-Tracker">
                       <p className="text-white">Repository</p>
-                      <i className="fab fa-github myicon"></i>
+                      <i className="fab fa-github myicon2"></i>
                     </a>
                   </div>
                 </div>
@@ -188,11 +188,11 @@ const Portfolio = () => (
                     <div className="col d-flex justify-content-around">
                       <a href="https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard">
                         <p className="text-white">Repository</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                       <a href="https://tbragg800.github.io/Week-6-Server-Side-APIs-Weather-Dashboard/">
                         <p className="text-white">Deployed Site</p>
-                        <i className="fab fa-github myicon"></i>
+                        <i className="fab fa-github myicon2"></i>
                       </a>
                     </div>
                   </div>

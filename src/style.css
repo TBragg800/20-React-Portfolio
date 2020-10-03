@@ -146,6 +146,11 @@ h2 {
     margin-left: 10px;
 }
 
+.myicon2 {
+    font-size: 32px;
+    margin-left: 10px;
+}
+
 .iframe-container {
     overflow: hidden;
     padding-top: 56.25%;
@@ -168,7 +173,7 @@ h2 {
         max-width: 100%;
         margin: auto;
         background-color:#d1dfffb5;
-        background-image: url('./portfolio-bg-small.jpg');
+        background-image: url('./constellations.gif');
         background-blend-mode: darken;
         background-size: cover;
         background-position: center;
