@@ -145,9 +145,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Burger Logger</h2>
                     <p>This application is a burger logger using MySQL, Node, Express, Handlebars and a homemade ORM.</p>
-                    <a href="https://github.com/TBragg800/Burger">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/Burger">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://obscure-springs-27484.herokuapp.com/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
