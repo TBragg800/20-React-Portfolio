@@ -21,7 +21,7 @@ class Container extends Component {
       return <Portfolio />;
     } else if (this.state.currentPage === "Contact") {
       return <Contact />;
-    } else {
+    } else if (this.state.currentPage === "Resume") {
       return <Resume />;
     }
   };
