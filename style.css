@@ -30,7 +30,7 @@ div img {
     max-width: 100%;
     margin: auto;
     background-color:#d1dfffb5;
-    /* background-image: url('assets/portfolio-bg.jpg'); */
+    background-image: url('assets/portfolio-bg.jpg');
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -160,7 +160,7 @@ color: black;
         max-width: 100%;
         margin: auto;
         background-color:#d1dfffb5;
-        /* background-image: url('assets/portfolio-bg-small.jpg'); */
+        background-image: url('assets/portfolio-bg-small.jpg');
         background-blend-mode: darken;
         background-size: cover;
         background-position: center;
