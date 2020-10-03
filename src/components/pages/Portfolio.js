@@ -185,9 +185,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Weather-Dashboard</h2>
                     <p>A series of weather forecasts using API calls</p>
-                    <a href="https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://tbragg800.github.io/Week-6-Server-Side-APIs-Weather-Dashboard/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
