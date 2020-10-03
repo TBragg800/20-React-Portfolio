@@ -123,9 +123,16 @@ const Portfolio = () => (
                   <div className="flip-card-back">
                     <h2>Template-Engine-Employee-Summary</h2>
                     <p>A Template Engine CLI application using Node.js</p>
-                    <a href="https://github.com/TBragg800/10-Template-Engine-Employee-Summary">
-                      <i className="fab fa-github myicon"></i>
-                    </a>
+                    <div className="col d-flex justify-content-around">
+                      <a href="https://github.com/TBragg800/10-Template-Engine-Employee-Summary">
+                        <p className="text-white">Repository</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                      <a href="https://tbragg800.github.io/10-Template-Engine-Employee-Summary/">
+                        <p className="text-white">Deployed Site</p>
+                        <i className="fab fa-github myicon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </figure>
