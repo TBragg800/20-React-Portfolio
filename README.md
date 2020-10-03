@@ -15,9 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![GitHub last commit](https://img.shields.io/github/last-commit/TBragg800/20-React-Portfolio)
 
 ## Walkthrough Video Demonstration: 
-# <p align="center">![Walkthrough]()</p>
+# <p align="center">![Walkthrough](./public/assets/React-Port.gif)</p>
 * YouTube link to the 
-[walkthrough]()
+[walkthrough](https://youtu.be/6Ljar8aY8pE)
 
 ## Table of Contents
   [Description](#Description)
@@ -40,9 +40,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation
 * Begin by cloning the repo locally.
 * Using the CLI, the user should navigate to the project directory and run 'npm install'.
-* Use MongoDB for database handling.
-
-# <p align="center">![]()</p>
 
 ## Usage
 * After installation, use the CLI to navigate to the project directory.
@@ -75,7 +72,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Contributing
-  Fork the project & clone locally. Create an upstream remote and sync your local copy before you branch. Branch for each separate piece of work. Do the work, write good commit messages, and read the CONTRIBUTING file if there is one. Push to your origin repository. Create a new PR in GitHub.
+Fork the project & clone locally. Create an upstream remote and sync your local copy before you branch. Branch for each separate piece of work. Do the work, write good commit messages, and read the CONTRIBUTING file if there is one. Push to your origin repository. Create a new PR in GitHub.
 
 ## Tests
 ### `npm test`
@@ -88,5 +85,5 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
   Github: [TBragg800](http://github.com/TBragg800)
 
 ## Screenshot of deployed application
-# <p align="center">![]()</p>
-# <p align="center">![]()</p>
+# <p align="center">![](./public/assets/P-home.png)</p>
+# <p align="center">![](./public/assets/P-port.png)</p>
