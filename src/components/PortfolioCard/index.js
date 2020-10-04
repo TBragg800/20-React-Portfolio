@@ -39,7 +39,7 @@ function PortfolioCard(props) {
               <p className="text-white">Repository</p>
               <i className="fab fa-github myicon2"></i>
             </a>
-            <a href={props.deploy1}>
+            <a href={props.deploy2}>
               <p className="text-white">Deployed Site</p>
               <i className="fab fa-github myicon2"></i>
             </a>
