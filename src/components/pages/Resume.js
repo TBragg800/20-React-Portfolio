@@ -29,7 +29,11 @@ const Resume = () => (
         data-aos-once="true"
         data-aos-anchor-placement="top-center">
           <div>               
-            <iframe class="col-12" src="assets/Web-Dev-Res-revised-8-2020.pdf">
+            <iframe 
+            class="col-12" 
+            src="assets/Web-Dev-Res-revised-8-2020.pdf"
+            title="Resume"
+            >
             </iframe>
           </div>
       </section>    
