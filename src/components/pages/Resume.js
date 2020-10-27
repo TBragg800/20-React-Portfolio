@@ -31,7 +31,7 @@ const Resume = () => (
           <div>               
             <iframe 
             class="col-12" 
-            src="assets/Web-Dev-Res-revised-8-2020.pdf"
+            src="assets/Web-Dev-Res-revised-10-2020.pdf"
             title="Resume"
             >
             </iframe>
