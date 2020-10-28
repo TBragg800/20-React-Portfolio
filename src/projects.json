@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "header1": "Project 1 FitG6",
-    "description1": "A motivational app with a focus on fitness",
-    "image1": "assets/projectG6.png",
-    "repository1": "https://github.com/TBragg800/project-1-fitG6",
-    "deploy1": "https://tictac2992.github.io/project-1-fitG6/",
+    "header1": "Project 3: Air-Bob",
+    "description1": "A MERN Stack application mimicing Air-Bnb for Dog Boarding",
+    "image1": "assets/Air-Bob.gif",
+    "repository1": "https://github.com/TBragg800/Project-3",
+    "deploy1": "https://gentle-lowlands-16574.herokuapp.com/",
 
     "header2": "Project 2: Personalized Festival",
     "description2": "A personalized festival using MySQL, Node, Express, Handlebars and a Sequelize ORM set up in an MVC file structure.",
@@ -16,17 +16,17 @@
 
   {
     "id": 2,
-    "header1": "Work-Day-Scheduler",
-    "description1": "A scheduler using local storage and moment.js",
-    "image1": "assets/Work-Day-Scheduler.png",
-    "repository1": "https://github.com/TBragg800/Week-5-Work-Day-Scheduler",
-    "deploy1": "https://tbragg800.github.io/Week-5-Work-Day-Scheduler/",
+    "header1": "Project 1: FitG6",
+    "description1": "A motivational app with a focus on fitness",
+    "image1": "assets/projectG6.png",
+    "repository1": "https://github.com/TBragg800/project-1-fitG6",
+    "deploy1": "https://tictac2992.github.io/project-1-fitG6/",
 
-    "header2": "Code Quiz",
-    "description2": "A timed code quiz utilizing javascript",
-    "image2": "assets/CodeQuiz.png",
-    "repository2": "https://github.com/TBragg800/Week-4-Web-APIs-Code-Quiz",
-    "deploy2": "https://tbragg800.github.io/Week-4-Web-APIs-Code-Quiz/"
+    "header2": "Work-Day-Scheduler",
+    "description2": "A scheduler using local storage and moment.js",
+    "image2": "assets/Work-Day-Scheduler.png",
+    "repository2": "https://github.com/TBragg800/Week-5-Work-Day-Scheduler",
+    "deploy2": "https://tbragg800.github.io/Week-5-Work-Day-Scheduler/"
   },
   
   {
