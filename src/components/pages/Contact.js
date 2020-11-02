@@ -1,23 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
+import emailjs from "emailjs-com";
 
-class Contact extends Component {
-  constructor() {
-    super()
-    this.state = {
-      name: "",
-      email: "",
-      message: ""
-    }
+const Contact = () => {
 
-    this.handleChange = this.handleChange.bind(this)
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_key1q6r', 'template_1dkb9lk', e.target, 'user_mcxe4PpLu0KEGgD69Gq6L')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
 
-  render() {
-    return (
+  return (
       <main> 
     {/* Container for main content    */}
         <section className="container myborder bg-transparent rounded mb-5 shadow-lg">
@@ -46,7 +45,9 @@ class Contact extends Component {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-anchor-placement="top-center">
-              <form>
+              <form 
+              // onSubmit={this.handleSubmit}
+              onSubmit={sendEmail}>
                 <div className="form-row">
                   <div className="col">
                     <label for="validationCustom01" className="myp3">Name</label>
@@ -55,7 +56,7 @@ class Contact extends Component {
                       name="name"
                       className="form-control" 
                       id="validationCustom01"
-                      onChange={this.handleChange} />
+                       />
                   </div>
                 </div>
                 <div className="form-group mt-2">
@@ -66,7 +67,17 @@ class Contact extends Component {
                     className="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
-                    onChange={this.handleChange} />
+                     />
+                </div>
+                <div className="form-group mt-2">
+                  <label for="subject" id="subjectHelp" className="myp3">Subject</label>
+                  <input 
+                    type="subject"
+                    name="subject"
+                    className="form-control"
+                    id="subject"
+                    aria-describedby="subject"
+                     />
                 </div>
                 <div className="form-group">
                   <label for="exampleFormControlTextarea1" className="myp3">Message</label>
@@ -75,7 +86,7 @@ class Contact extends Component {
                   className="form-control" 
                   id="exampleFormControlTextarea1" 
                   rows="10"
-                  onChange={this.handleChange} />
+                   />
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
               </form>
@@ -84,7 +95,7 @@ class Contact extends Component {
         </section>
       </main>
     );
-  }
+
 };
 
 export default Contact;
