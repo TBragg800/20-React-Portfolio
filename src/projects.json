@@ -3,13 +3,13 @@
     "id": 1,
     "header1": "Project 3: Air-Bob",
     "description1": "A MERN Stack application mimicing Air-Bnb for Dog Boarding",
-    "image1": "assets/Air-Bob.gif",
+    "image1": "Air-Bob.gif",
     "repository1": "https://github.com/TBragg800/Project-3",
     "deploy1": "https://gentle-lowlands-16574.herokuapp.com/",
 
     "header2": "Project 2: Personalized Festival",
     "description2": "A personalized festival using MySQL, Node, Express, Handlebars and a Sequelize ORM set up in an MVC file structure.",
-    "image2": "assets/personalized_festival.gif",
+    "image2": "personalized_festival.gif",
     "repository2": "https://github.com/TBragg800/personalized-festival",
     "deploy2": "https://serene-sands-67688.herokuapp.com/"
   },
@@ -18,13 +18,13 @@
     "id": 2,
     "header1": "Project 1: FitG6",
     "description1": "A motivational app with a focus on fitness",
-    "image1": "assets/projectG6.png",
+    "image1": "projectG6.png",
     "repository1": "https://github.com/TBragg800/project-1-fitG6",
     "deploy1": "https://tictac2992.github.io/project-1-fitG6/",
 
     "header2": "Work-Day-Scheduler",
     "description2": "A scheduler using local storage and moment.js",
-    "image2": "assets/Work-Day-Scheduler.png",
+    "image2": "Work-Day-Scheduler.png",
     "repository2": "https://github.com/TBragg800/Week-5-Work-Day-Scheduler",
     "deploy2": "https://tbragg800.github.io/Week-5-Work-Day-Scheduler/"
   },
@@ -33,13 +33,13 @@
     "id": 3,
     "header1": "Template-Engine-Employee-Summary",
     "description1": "A Template Engine CLI application using Node.js",
-    "image1": "assets/10-temp-eng-depolyed.png",
+    "image1": "10-temp-eng-depolyed.png",
     "repository1": "https://github.com/TBragg800/10-Template-Engine-Employee-Summary",
     "deploy1": "https://tbragg800.github.io/10-Template-Engine-Employee-Summary/",
 
     "header2": "Burger Logger",
     "description2": "This application is a burger logger using MySQL, Node, Express, Handlebars and a homemade ORM.",
-    "image2": "assets/Eat-Da-Burger.png",
+    "image2": "Eat-Da-Burger.png",
     "repository2": "https://github.com/TBragg800/Burger",
     "deploy2": "https://obscure-springs-27484.herokuapp.com/"
   },
@@ -48,13 +48,13 @@
     "id": 4,
     "header1": "MySQL-Employee-Tracker",
     "description1": "This application is a Content Management System which utilizes node.js to inquirer, and MySQL to architect and build a solution for managing a company's employees.",
-    "image1": "assets/12-MySQL-Employee-Tracker.gif",
+    "image1": "12-MySQL-Employee-Tracker.gif",
     "repository1": "https://github.com/TBragg800/12-MySQL-Employee-Tracker",
     "deploy1": "https://github.com/TBragg800/12-MySQL-Employee-Tracker",
 
     "header2": "Weather-Dashboard",
     "description2": "A series of weather forecasts using API calls.",
-    "image2": "assets/Weather-Dashboard.png",
+    "image2": "Weather-Dashboard.png",
     "repository2": "https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard",
     "deploy2": "https://tbragg800.github.io/Week-6-Server-Side-APIs-Weather-Dashboard/"
   }

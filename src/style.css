@@ -36,6 +36,7 @@ div img {
     background-position: center;
     padding-bottom: 120px;
     display: block;
+    z-index: -1;
 }
 
 .mycol {

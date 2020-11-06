@@ -7,7 +7,7 @@ function PortfolioCard(props) {
     <figure className="col-sm-6 flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front bg-transparent">
-          <img src={props.image1} alt="..." className="img-fluid img-thumbnail mb-5 shadow-lg" />
+          <img src={require(`../../images/${props.image1}`)} alt="..." className="img-fluid img-thumbnail mb-5 shadow-lg" />
         </div>
         <div className="flip-card-back">
           <h2>{props.header1}</h2>
@@ -29,7 +29,7 @@ function PortfolioCard(props) {
     <figure className="col-sm-6 flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front bg-transparent">
-          <img src={props.image2} alt="..." className="img-fluid img-thumbnail mb-5 shadow-lg" />
+          <img src={require(`../../images/${props.image2}`)}  alt="..." className="img-fluid img-thumbnail mb-5 shadow-lg" />
         </div>
         <div className="flip-card-back">
           <h2>{props.header2}</h2>

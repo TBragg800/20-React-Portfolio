@@ -1,0 +1,45 @@
+/* main {
+    margin: 0;
+    height: 100vh;
+    font-family: "Montserrat";
+    overflow: hidden;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+  }
+
+  section div {
+      background-color: linen;
+      height: 100vh;
+      transition: background-color 1s;
+  }
+
+  span {
+    color: rgb(115, 115, 247);
+    font-size: 5em;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  button {
+    color: #fff !important;
+    font-size: 2em !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(101, 101, 255);
+    padding: 10px;
+    border-radius: 8px !important;;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    opacity: 0;
+    z-index: 2;
+  } */

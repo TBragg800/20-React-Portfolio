@@ -31,7 +31,7 @@ const Resume = () => (
           <div>               
             <iframe 
             class="col-12" 
-            src="assets/TBragg3.pdf"
+            src={require("../../images/TBragg3.pdf")}
             title="Resume"
             >
             </iframe>

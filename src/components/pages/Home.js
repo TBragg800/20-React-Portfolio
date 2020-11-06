@@ -29,7 +29,7 @@ const Home = () => (
             data-aos-once="true"
             data-aos-anchor-placement="top-center">
                 <figure className="col-sm-4 mb-3">
-                    <img src="redshirt2.JPG" className="mycol rounded-pill shadow-lg mycenter" alt="Thomas in red shirt" />
+                    <img src={require("../../images/redshirt2.JPG")} className="mycol rounded-pill shadow-lg mycenter" alt="Thomas in red shirt" />
                 </figure>
 
                 <article className="col-lg-8 float-right shadow-lg p-3 mb-5 bg-transparent rounded">
