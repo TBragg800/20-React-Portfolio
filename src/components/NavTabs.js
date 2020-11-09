@@ -26,7 +26,7 @@ function NavTabs() {
             <section className="collapse navbar-collapse visible" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link to="/" className={location.pathname === "/" ? "nav-link active navFont" : "nav-link navFont"}>
+                  <Link to="/home" className={location.pathname === "/home" ? "nav-link active navFont" : "nav-link navFont"}>
                     HOME
                   </Link>
                 </li>

@@ -6,13 +6,15 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Footer from "./Footer/index";
+import Landing from "./Landing/Landing";
 
 function Container() {
   return (
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/contact" component={Contact} />
