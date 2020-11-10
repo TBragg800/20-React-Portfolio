@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import anime from 'animejs';
 import "./LandingStyle.css";
 import TextSVG from "../TextAnimation/TextAnimation";
+import ShipAnimation from "../ShipAnimation/ShipAnimation"
 
 export default class Landing extends Component {
 
@@ -66,6 +67,7 @@ export default class Landing extends Component {
       <main id="animateMe" className="fadeMe">
         <div className="animateSpan">
         <TextSVG />
+        <ShipAnimation />
         </div>
       
         <section id="rotateSection" className="animateSection">
@@ -82,6 +84,6 @@ export default class Landing extends Component {
         </section>
       </main>
     )
-    }
+  }
 
 };
