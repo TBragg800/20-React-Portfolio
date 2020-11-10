@@ -32,7 +32,7 @@ export default class Landing extends Component {
       })
       tl.add({
         targets: ".animateSpan",
-        top: "40%",
+        top: "30%",
         opacity: 1,
         duration: 4000
       }, "-=1600")

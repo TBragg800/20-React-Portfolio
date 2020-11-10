@@ -1,20 +1,38 @@
 import React, { Component } from 'react'
 import anime from 'animejs';
+import "./ship.css";
 
 
 export default class ShipAnimation extends Component {
     animation(){
-        const delay = time => new Promise(resolve => setTimeout(resolve, time));
-        delay(3500).then(() => {
-        anime({
+        let tl = anime.timeline({
+            easing: "easeOutExpo",
+            duration: 750
+          })
+    const delay = time => new Promise(resolve => setTimeout(resolve, time));
+        // delay(3000).then(() => {
+            tl.add({
+                targets: '.st0, .st1',
+                strokeDashoffset: [anime.setDashoffset, 0],
+                easing: 'cubicBezier(.5, .05, .1, .3)',
+                duration: 750,
+                delay: function(el, i) { return i * 750 }
+            });
+        // })
+        tl.add({
             targets: '.st0, .st1',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'cubicBezier(.5, .05, .1, .3)',
-            duration: 1000,
-            delay: function(el, i) { return i * 250 },
-          });
-        })
-       }
+            translateX: ["1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%","1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%","1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%"],
+            duration: 4000,
+            delay: 500
+      })
+        
+            tl.add({
+                targets: '.st0, .st1',
+                translateX: "100%",
+                translateY: "-100%",
+                duration: 8000
+          })
+    }
     
     componentDidMount(){
     this.animation()
@@ -22,10 +40,8 @@ export default class ShipAnimation extends Component {
     render() {
     return (
 
-<svg class="SVG3" width="540px" height="540px" viewBox="0 0 840 600" fill="none" stroke="white">
+<svg class="SVG3" width="540px" height="540px" viewBox="0 0 1260 800" fill="none" stroke="white">
 
-  <g id="bg">
-    </g>
       <g id="graphic">
 	  <g>
 		<path class="st0" d="M363.76,298.14c-9.82-14.98-16.15-32.62-16.41-50.35c-0.21-14.14,15.06-22.53,24.93-30.48

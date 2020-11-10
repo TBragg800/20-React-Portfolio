@@ -17,10 +17,8 @@
   }
 
   .animateSpan {
-    /* color: rgb(224, 224, 250, 0.75);
-    font-size: 5em; */
     position: absolute;
-    left: 40%;
+    left: 35%;
     opacity: 0;
     z-index: 2;
   }
