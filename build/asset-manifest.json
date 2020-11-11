@@ -1,26 +1,36 @@
 {
   "files": {
-    "main.css": "/20-React-Portfolio/static/css/main.6249eb12.chunk.css",
-    "main.js": "/20-React-Portfolio/static/js/main.ca5bf4aa.chunk.js",
-    "main.js.map": "/20-React-Portfolio/static/js/main.ca5bf4aa.chunk.js.map",
+    "main.css": "/20-React-Portfolio/static/css/main.751fcb56.chunk.css",
+    "main.js": "/20-React-Portfolio/static/js/main.b289962f.chunk.js",
+    "main.js.map": "/20-React-Portfolio/static/js/main.b289962f.chunk.js.map",
     "runtime-main.js": "/20-React-Portfolio/static/js/runtime-main.3fe209d1.js",
     "runtime-main.js.map": "/20-React-Portfolio/static/js/runtime-main.3fe209d1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/20-React-Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.32a69b1e.chunk.js": "/20-React-Portfolio/static/js/2.32a69b1e.chunk.js",
-    "static/js/2.32a69b1e.chunk.js.map": "/20-React-Portfolio/static/js/2.32a69b1e.chunk.js.map",
+    "static/js/2.35988c37.chunk.js": "/20-React-Portfolio/static/js/2.35988c37.chunk.js",
+    "static/js/2.35988c37.chunk.js.map": "/20-React-Portfolio/static/js/2.35988c37.chunk.js.map",
     "index.html": "/20-React-Portfolio/index.html",
-    "precache-manifest.a62ecc2dce8054d5a5ef8e83e0e76538.js": "/20-React-Portfolio/precache-manifest.a62ecc2dce8054d5a5ef8e83e0e76538.js",
+    "precache-manifest.0554b310cb9ab41524b2d4f31c0a8b8b.js": "/20-React-Portfolio/precache-manifest.0554b310cb9ab41524b2d4f31c0a8b8b.js",
     "service-worker.js": "/20-React-Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/20-React-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.6249eb12.chunk.css.map": "/20-React-Portfolio/static/css/main.6249eb12.chunk.css.map",
-    "static/js/2.32a69b1e.chunk.js.LICENSE.txt": "/20-React-Portfolio/static/js/2.32a69b1e.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/20-React-Portfolio/static/media/constellations.fa805fd0.gif"
+    "static/css/main.751fcb56.chunk.css.map": "/20-React-Portfolio/static/css/main.751fcb56.chunk.css.map",
+    "static/js/2.35988c37.chunk.js.LICENSE.txt": "/20-React-Portfolio/static/js/2.35988c37.chunk.js.LICENSE.txt",
+    "static/media/10-temp-eng-depolyed.png": "/20-React-Portfolio/static/media/10-temp-eng-depolyed.73d154e0.png",
+    "static/media/12-MySQL-Employee-Tracker.gif": "/20-React-Portfolio/static/media/12-MySQL-Employee-Tracker.ffdd50ca.gif",
+    "static/media/Air-Bob.gif": "/20-React-Portfolio/static/media/Air-Bob.29c2bc1e.gif",
+    "static/media/Eat-Da-Burger.png": "/20-React-Portfolio/static/media/Eat-Da-Burger.adeeeae5.png",
+    "static/media/TBragg3.pdf": "/20-React-Portfolio/static/media/TBragg3.8db9b2d3.pdf",
+    "static/media/Weather-Dashboard.png": "/20-React-Portfolio/static/media/Weather-Dashboard.1b0041dd.png",
+    "static/media/Work-Day-Scheduler.png": "/20-React-Portfolio/static/media/Work-Day-Scheduler.2f84246e.png",
+    "static/media/style.css": "/20-React-Portfolio/static/media/constellations.fa805fd0.gif",
+    "static/media/personalized_festival.gif": "/20-React-Portfolio/static/media/personalized_festival.9bd3b2fd.gif",
+    "static/media/projectG6.png": "/20-React-Portfolio/static/media/projectG6.296ae066.png",
+    "static/media/redshirt2.JPG": "/20-React-Portfolio/static/media/redshirt2.45366788.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.3fe209d1.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.32a69b1e.chunk.js",
-    "static/css/main.6249eb12.chunk.css",
-    "static/js/main.ca5bf4aa.chunk.js"
+    "static/js/2.35988c37.chunk.js",
+    "static/css/main.751fcb56.chunk.css",
+    "static/js/main.b289962f.chunk.js"
   ]
 }

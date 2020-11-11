@@ -9,29 +9,25 @@ export default class ShipAnimation extends Component {
             easing: "easeOutExpo",
             duration: 750
           })
-    const delay = time => new Promise(resolve => setTimeout(resolve, time));
-        // delay(3000).then(() => {
-            tl.add({
-                targets: '.st0, .st1',
-                strokeDashoffset: [anime.setDashoffset, 0],
-                easing: 'cubicBezier(.5, .05, .1, .3)',
-                duration: 750,
-                delay: function(el, i) { return i * 750 }
-            });
-        // })
+		tl.add({
+			targets: '.st0, .st1',
+			strokeDashoffset: [anime.setDashoffset, 0],
+			easing: 'cubicBezier(.5, .05, .1, .3)',
+			duration: 750,
+			delay: function(el, i) { return i * 750 }
+		});
         tl.add({
             targets: '.st0, .st1',
             translateX: ["1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%","1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1%", "1%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%","1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%", "1.5%", "-1.5%"],
             duration: 4000,
             delay: 500
-      })
-        
-            tl.add({
-                targets: '.st0, .st1',
-                translateX: "100%",
-                translateY: "-100%",
-                duration: 8000
-          })
+      	})
+		tl.add({
+			targets: '.st0, .st1',
+			translateX: "100%",
+			translateY: "-100%",
+			duration: 8000
+        })
     }
     
     componentDidMount(){
