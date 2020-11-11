@@ -13,7 +13,7 @@ function Container() {
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/20-React-Portfolio/" component={Landing} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
