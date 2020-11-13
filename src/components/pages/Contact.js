@@ -50,7 +50,7 @@ const Contact = () => {
               onSubmit={sendEmail}>
                 <div className="form-row">
                   <div className="col">
-                    <label for="validationCustom01" className="myp3">Name</label>
+                    <label className="myp3">Name</label>
                     <input 
                       type="text"
                       name="name"
@@ -60,7 +60,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="form-group mt-2">
-                  <label for="exampleInputEmail1" id="emailHelp" className="myp3">Email address</label>
+                  <label id="emailHelp" className="myp3">Email address</label>
                   <input 
                     type="email"
                     name="email"
@@ -70,7 +70,7 @@ const Contact = () => {
                      />
                 </div>
                 <div className="form-group mt-2">
-                  <label for="subject" id="subjectHelp" className="myp3">Subject</label>
+                  <label id="subjectHelp" className="myp3">Subject</label>
                   <input 
                     type="subject"
                     name="subject"
@@ -80,7 +80,7 @@ const Contact = () => {
                      />
                 </div>
                 <div className="form-group">
-                  <label for="exampleFormControlTextarea1" className="myp3">Message</label>
+                  <label className="myp3">Message</label>
                   <textarea
                   name="message"
                   className="form-control" 

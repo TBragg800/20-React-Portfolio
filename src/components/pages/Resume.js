@@ -3,9 +3,9 @@ import React from "react";
 const Resume = () => (
   <main>  
  {/* Container for main content   */}
-    <section class="container bg-transparent rounded mb-5 shadow-lg">
+    <section className="container bg-transparent rounded mb-5 shadow-lg">
  {/* H1 element to head page */}
-      <section class="row h1bg"
+      <section className="row h1bg"
         data-aos="fade-down"
         data-aos-offset="0"
         data-aos-delay="50"
@@ -14,12 +14,12 @@ const Resume = () => (
         data-aos-mirror="true"
         data-aos-once="true"
         data-aos-anchor-placement="top-center">
-          <div class="col row justify-content-center">
+          <div className="col row justify-content-center">
             <h1>Resume</h1>
           </div>
       </section>
  {/* iframe containing resume */}
-      <section class="row m-5 iframe-container"
+      <section className="row m-5 iframe-container"
         data-aos="zoom-in"
         data-aos-offset="-150"
         data-aos-delay="50"
@@ -30,7 +30,7 @@ const Resume = () => (
         data-aos-anchor-placement="top-center">
           <div>               
             <iframe 
-            class="col-12" 
+            className="col-12" 
             src={require("../../images/TBragg3.pdf")}
             title="Resume"
             >

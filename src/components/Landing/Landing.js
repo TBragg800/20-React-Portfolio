@@ -42,21 +42,6 @@ export default class Landing extends Component {
         opacity: 1,
         duration: 3000
       }, "-=1600")
-
-      // let rotateMe = anime({
-      //   targets: "#rotateSection",
-      //   scaleY: "2",
-      //   scaleX: "2",
-      //   translateX: "50%",
-      //   rotate: "45deg",
-      //   duration: 5000,
-      //   autoplay: false
-      // })
-
-      // document.querySelector("button").addEventListener("click", (props) => {
-      //   rotateMe.play();
-      //   props.history.push("/home");
-      // })
     }
     
     componentDidMount(){
