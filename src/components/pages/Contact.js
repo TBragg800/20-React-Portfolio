@@ -21,22 +21,23 @@ const Contact = () => {
     {/* Container for main content    */}
         <section className="container myborder bg-transparent rounded mb-5 shadow-lg">
     {/* H1 element to head page  */}
-          <section className="row h1bg"
-          data-aos="fade-down"
-          data-aos-offset="0"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          data-aos-anchor-placement="top-center">
-                <div className="col row justify-content-center">
-                    <h1>Contact</h1>
-                </div>
-            </section>
-    {/* Form section containing contact forms */}
-          <section className="row m-5">
-            <div className="col-lg-12 float-right shadow-lg p-3 mb-5 bg-transparent rounded"
+          <section 
+            className="row h1bg"
+            data-aos="fade-down"
+            data-aos-offset="0"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center">
+            <div className="col row justify-content-center">
+                <h1>Contact</h1>
+            </div>
+          </section>
+
+          <section
+            className="mt-5 pt-3 pb-4 contactsContainer"
             data-aos="zoom-in"
             data-aos-offset="-150"
             data-aos-delay="50"
@@ -45,6 +46,44 @@ const Contact = () => {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-anchor-placement="top-center">
+            <div className="row d-flex justify-content-around">
+              <p className="myp4">GitHub</p>
+              <p className="myp4">LinkedIn</p>
+            </div>
+            <div className="row d-flex justify-content-around">
+              <a href="https://github.com/TBragg800">
+                <i className="fab fa-github myicon3"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/thomas-bragg-b233851a6/">
+                <i className="fab fa-linkedin myicon3"></i>
+              </a>
+            </div>
+
+            <div className="pt-3 row d-flex justify-content-around">
+              <p className="myp4">Facebook</p>
+              <p className="myp4">Instagram</p>
+            </div>
+            <div className="pt-3 row d-flex justify-content-around">
+              <a href="https://www.facebook.com/thomas.bragg.5">
+                <i className="fab fa-facebook myicon3"></i>
+              </a>
+              <a href="https://www.instagram.com/bragg_thomas/">
+                <i className="fab fa-instagram myicon3"></i>
+              </a>
+            </div>
+          </section>
+    {/* Form section containing contact forms */}
+          <section className="row m-5">
+            <div 
+              className="col-lg-12 float-right shadow-lg p-3 mb-5 bg-transparent rounded"
+              data-aos="zoom-in"
+              data-aos-offset="-150"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center">
               <form 
               // onSubmit={this.handleSubmit}
               onSubmit={sendEmail}>
