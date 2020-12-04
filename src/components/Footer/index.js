@@ -7,6 +7,9 @@ function Footer() {
       <nav className="row">
         <section className="col-lg-12 h1bg row justify-content-center pt-2 pb-2">
           <p className="m-1"><i className="far fa-copyright"></i> Copyright</p>
+          <a href="mailto:tbbragg83@gmail.com"  target="_blank">
+            <i class="far fa-envelope myicon"></i>
+          </a>
           <a href="https://www.facebook.com/thomas.bragg.5">
               <i className="fab fa-facebook myicon"></i>
           </a>
