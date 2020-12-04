@@ -71,6 +71,18 @@ const Contact = () => {
                 <i className="fab fa-instagram myicon3"></i>
               </a>
             </div>
+
+            <div className="pt-3 row d-flex justify-content-around">
+              <p className="myp4">Email me direct here</p>
+            </div>
+            <div className="pt-3 row d-flex justify-content-around">
+              <a href="mailto:tbbragg83@gmail.com"  target="_blank">
+              <i class="far fa-envelope myicon3"></i>
+              </a>
+            </div>
+            <div className="pt-3 row d-flex justify-content-around">
+              <p className="myp4">or use the form below</p>
+            </div>
           </section>
     {/* Form section containing contact forms */}
           <section className="row m-5">
