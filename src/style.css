@@ -186,6 +186,10 @@ h2 {
      width: 100%;
   }
 
+  .navbar-toggler {
+      background-color: rgba(171, 134, 80, 0.845) !important;
+  }
+
 @media all and (max-width:900px), (max-device-width:900px){
     .mybg {
         max-height: 100%;
