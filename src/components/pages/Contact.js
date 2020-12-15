@@ -76,8 +76,8 @@ const Contact = () => {
               <p className="myp4">Email me direct here</p>
             </div>
             <div className="pt-3 row d-flex justify-content-around">
-              <a href="mailto:tbbragg83@gmail.com"  target="_blank">
-              <i class="far fa-envelope myicon3"></i>
+              <a href="mailto:tbbragg83@gmail.com"  target="_blank" rel="noopener noreferrer">
+              <i className="far fa-envelope myicon3"></i>
               </a>
             </div>
             <div className="pt-3 row d-flex justify-content-around">

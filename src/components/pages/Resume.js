@@ -28,14 +28,14 @@ const Resume = () => (
         data-aos-mirror="true"
         data-aos-once="true"
         data-aos-anchor-placement="top-center">
-          <div>               
+          {/* <div>                */}
             <iframe 
-            className="col-12" 
+            className="col-12 responsive-iframe" 
             src={require("../../images/TBragg3.pdf")}
             title="Resume"
             >
             </iframe>
-          </div>
+          {/* </div> */}
       </section>    
     </section>
   </main>
