@@ -47,7 +47,7 @@
   {
     "id": 4,
     "header1": "MySQL-Employee-Tracker",
-    "description1": "This application is a Content Management System which utilizes node.js to inquirer, and MySQL to architect and build a solution for managing a company's employees.",
+    "description1": "This application is a Content Management System which utilizes node.js, inquirer, and MySQL to build a solution for managing a company's employees.",
     "image1": "12-MySQL-Employee-Tracker.gif",
     "repository1": "https://github.com/TBragg800/12-MySQL-Employee-Tracker",
     "deploy1": "https://github.com/TBragg800/12-MySQL-Employee-Tracker",
