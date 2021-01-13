@@ -36,7 +36,7 @@ export default class ShipAnimation extends Component {
     render() {
     return (
 
-<svg className="SVG3" width="540px" height="540px" viewBox="0 0 1260 800" fill="none" stroke="white">
+<svg className="SVG3" width="100%" height="100%" viewBox="0 0 1260 800" fill="none" stroke="white">
 
       <g id="graphic">
 	  <g>

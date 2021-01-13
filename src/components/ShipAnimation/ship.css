@@ -1,7 +1,7 @@
 
   .SVG3 {
     /* top: 15%; */
-    -webkit-transform: translateX(0%) translateY(-20%);
-    -ms-transform: translateX(0%) translateY(-20%);
-    transform: translateX(0%) translateY(-20%);
+    -webkit-transform: translateX(10%) translateY(10%);
+    -ms-transform: translateX(10%) translateY(10%);
+    transform: translateX(10%) translateY(10%);
   }
